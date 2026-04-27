@@ -23,6 +23,22 @@ st.divider()
 # ==========================================
 # 2. 侧边栏：输入参数
 # ==========================================
+# --- 新增：学校标识 (Xi'an Jiaotong University) ---
+# 使用 Markdown 在侧边栏最顶部插入学校名字
+# 这里使用了居中和深蓝色 (#003366)，使其看起来更正式
+st.sidebar.markdown(
+    """
+    <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
+        <h3 style="color: #003366; font-family: 'Times New Roman', Times, serif; font-weight: bold;">
+            Xi'an Jiaotong University
+        </h3>
+        <hr style="border-top: 2px solid #003366; margin-top: -10px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+# --------------------------------------------------
+# ... 原有的输入参数代码保持不变 ...
 st.sidebar.header("📥 输入 COF 材料参数")
 
 cof_name = st.sidebar.text_input("材料名称 (需对应 structures/ 目录下的文件名)", value="Test-COF-01")
