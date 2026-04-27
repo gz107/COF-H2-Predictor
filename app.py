@@ -27,7 +27,7 @@ st.divider()
 st.sidebar.markdown(
     """
     <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
-        <h3 style="color: #003366; font-family: 'Times New Roman', Times, serif; font-weight: bold;">
+        <h3 style="color: #003366; font-family: 'Arial', Times, serif; font-weight: bold;">
             Xi'an Jiaotong University
         </h3>
         <hr style="border-top: 2px solid #003366; margin-top: -10px;">
