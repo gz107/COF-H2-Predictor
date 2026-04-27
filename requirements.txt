@@ -3,4 +3,3 @@ pandas
 plotly
 openai
 st-py3dmol
-py3dmol
